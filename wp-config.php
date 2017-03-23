@@ -24,10 +24,12 @@ if (!defined('DB_NAME')) {
 	define('DB_NAME', 'noodapteek_wp');
 }
 if (!defined('DB_USER')) {
-	define('DB_USER', 'noodapteek_u');
+//	define('DB_USER', 'noodapteek_u');
+define('DB_USER', 'root');
 }
 if (!defined('DB_PASSWORD')) {
-	define('DB_PASSWORD', 'v_zm2!U_T3W%kqLa');
+//	define('DB_PASSWORD', 'v_zm2!U_T3W%kqLa');
+define('DB_PASSWORD', 'root');
 }
 if (!defined('DB_HOST')) {
 	define('DB_HOST', 'localhost');
@@ -88,16 +90,20 @@ define('WPLANG', '');
  * These are required because wordpress is installed in a subdirectory.
  */
 if (!defined('WP_SITEURL')) {
-	define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp');
+	//define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp');
+    define('WP_SITEURL', 'http://localhost/noodapteek.co.za/wp');
 }
 if (!defined('WP_HOME')) {
-	define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME'] . '');
+	//define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME'] . '');
+    define('WP_HOME',    'http://localhost/noodapteek.co.za/');
 }
 if (!defined('WP_CONTENT_DIR')) {
-	define('WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content');
+	//define('WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content');
+    define('WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content');
 }
 if (!defined('WP_CONTENT_URL')) {
-	define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
+	//define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
+    define('WP_CONTENT_URL', 'http://localhost/noodapteek.co.za/wp-content');
 }
 
 

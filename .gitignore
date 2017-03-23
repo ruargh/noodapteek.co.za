@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ignore YeoPress configuration file since it contains password information
 .yeopress
 
@@ -28,12 +29,29 @@ Thumbs.db
 # https://github.com/github/gitignore/blob/master/WordPress.gitignore
 sitemap.xml
 sitemap.xml.gz
+=======
+*.log
+wp-config.php
+>>>>>>> master
 wp-content/advanced-cache.php
 wp-content/backup-db/
 wp-content/backups/
 wp-content/blogs.dir/
 wp-content/cache/
+<<<<<<< HEAD
 wp-content/uploads/
 wp-content/upgrade/
 wp-content/wp-cache-config.php
+=======
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+/.htaccess
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
+>>>>>>> master
 
